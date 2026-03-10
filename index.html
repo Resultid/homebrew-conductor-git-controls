@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conductor Git Controls — The Workspace Conductor for Git</title>
-    <meta name="description" content="A high-performance, minimal macOS interface for managing complex git operations across multiple coding workspaces.">
+    <title>Conductor Git Controls — Git for your Conductor workspaces</title>
+    <meta name="description" content="A native macOS Git client built for Conductor. Stage, commit, and push across all your Conductor workspaces from one interface.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -88,25 +88,18 @@
             </div>
 
             <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1] mb-6">
-                The Workspace Conductor<br class="hidden sm:block"> for <span class="text-indigo-400">Git.</span>
+                Git controls for<br class="hidden sm:block"> <span class="text-indigo-400">Conductor.</span>
             </h1>
             <p class="text-base sm:text-lg text-slate-400 max-w-xl mx-auto mb-10 leading-relaxed">
-                A high-performance, minimal macOS interface for managing complex git operations across multiple coding workspaces.
+                A native macOS Git client built for Conductor. Stage, commit, and push across all your workspaces from one interface.
             </p>
 
             <!-- CTA -->
             <div class="flex flex-col items-center gap-5">
-                <!-- Download button hidden for now
-                <a href="#download" class="inline-flex items-center gap-2.5 px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-base rounded-xl glow-indigo transition-all active:scale-[0.98] border-t border-white/20">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
-                    Download for macOS (.dmg)
-                </a>
-                -->
-
-                <div class="terminal-box rounded-lg px-5 py-3 flex items-center gap-3">
-                    <span class="text-slate-500 text-xs select-none">$</span>
-                    <code class="text-sm text-slate-300">brew install --cask Resultid/homebrew-conductor-git-controls/conductor-git-controls</code>
-                    <button onclick="navigator.clipboard.writeText('brew install --cask Resultid/homebrew-conductor-git-controls/conductor-git-controls')" class="text-slate-500 hover:text-indigo-400 transition-colors ml-1" title="Copy">
+                <div class="terminal-box rounded-xl px-6 py-4 flex items-center gap-3 glow-indigo">
+                    <span class="text-slate-500 text-sm select-none">$</span>
+                    <code class="text-sm sm:text-base text-slate-200">brew install --cask Resultid/conductor-git-controls/conductor-git-controls</code>
+                    <button onclick="navigator.clipboard.writeText('brew install --cask Resultid/conductor-git-controls/conductor-git-controls')" class="text-slate-500 hover:text-indigo-400 transition-colors ml-1" title="Copy">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9.75a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184"/></svg>
                     </button>
                 </div>
@@ -117,8 +110,8 @@
     <!-- Features -->
     <section id="features" class="py-24 px-6">
         <div class="max-w-5xl mx-auto">
-            <p class="text-xs font-bold text-indigo-500 uppercase tracking-[0.3em] text-center mb-4">Why Conductor</p>
-            <h2 class="text-2xl sm:text-3xl font-bold text-center mb-16 tracking-tight">Built for how you actually work.</h2>
+            <p class="text-xs font-bold text-indigo-500 uppercase tracking-[0.3em] text-center mb-4">Why Git Controls</p>
+            <h2 class="text-2xl sm:text-3xl font-bold text-center mb-16 tracking-tight">Purpose-built for Conductor workspaces.</h2>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
                 <!-- Workspace Native -->
@@ -126,8 +119,8 @@
                     <div class="w-10 h-10 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center mb-5">
                         <svg class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z"/></svg>
                     </div>
-                    <h3 class="font-bold text-base mb-2">Workspace Native</h3>
-                    <p class="text-sm text-slate-400 leading-relaxed">Designed specifically for Conductor.build environments. Automatically discovers and manages all your git worktrees.</p>
+                    <h3 class="font-bold text-base mb-2">Conductor Native</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">Reads directly from Conductor's workspace database. Every workspace you create in Conductor appears automatically — no setup required.</p>
                 </div>
 
                 <!-- High-Speed Staging -->
@@ -136,7 +129,7 @@
                         <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"/></svg>
                     </div>
                     <h3 class="font-bold text-base mb-2">High-Speed Staging</h3>
-                    <p class="text-sm text-slate-400 leading-relaxed">A single-click UI for bulk staging and unstaging that stays out of your way. Stage, commit, and push in one motion.</p>
+                    <p class="text-sm text-slate-400 leading-relaxed">Bulk stage, commit, and push in one click. Switch between Conductor workspaces and manage changes without leaving the app.</p>
                 </div>
 
                 <!-- Native Performance -->
@@ -155,7 +148,7 @@
     <section class="py-24 px-6">
         <div class="max-w-4xl mx-auto">
             <p class="text-xs font-bold text-indigo-500 uppercase tracking-[0.3em] text-center mb-4">Interface</p>
-            <h2 class="text-2xl sm:text-3xl font-bold text-center mb-16 tracking-tight">Minimal by design.</h2>
+            <h2 class="text-2xl sm:text-3xl font-bold text-center mb-16 tracking-tight">All your Conductor workspaces. One sidebar.</h2>
 
             <!-- App Mockup -->
             <div class="surface-glass border-hairline rounded-2xl overflow-hidden shadow-2xl">
@@ -239,7 +232,7 @@
             </div>
             <h2 class="text-2xl sm:text-3xl font-bold mb-4 tracking-tight">Local-first. Always.</h2>
             <p class="text-base text-slate-400 leading-relaxed max-w-lg mx-auto">
-                Your code never leaves your machine. Conductor is a local-first utility with no telemetry, no cloud sync, and no external dependencies. Just you and your git repos.
+                Your code never leaves your machine. Git Controls is a local-first companion for Conductor — no telemetry, no cloud sync, no accounts. It reads your Conductor workspaces and talks to git. That's it.
             </p>
         </div>
     </section>
@@ -248,16 +241,16 @@
     <section id="download" class="py-24 px-6">
         <div class="max-w-2xl mx-auto text-center">
             <h2 class="text-2xl sm:text-3xl font-bold mb-4 tracking-tight">Ready to conduct?</h2>
-            <p class="text-sm text-slate-400 mb-8">Free and open source. macOS 12+ required.</p>
-            <div class="flex flex-col items-center gap-5">
-                <div class="terminal-box rounded-lg px-5 py-3 flex items-center gap-3">
-                    <span class="text-slate-500 text-xs select-none">$</span>
-                    <code class="text-sm text-slate-300">brew install --cask Resultid/homebrew-conductor-git-controls/conductor-git-controls</code>
-                    <button onclick="navigator.clipboard.writeText('brew install --cask Resultid/homebrew-conductor-git-controls/conductor-git-controls')" class="text-slate-500 hover:text-indigo-400 transition-colors ml-1" title="Copy">
+            <p class="text-sm text-slate-400 mb-8">Free and open source. Requires Conductor and macOS 12+.</p>
+            <div class="flex flex-col items-center gap-4">
+                <div class="terminal-box rounded-xl px-6 py-4 flex items-center gap-3 glow-indigo">
+                    <span class="text-slate-500 text-sm select-none">$</span>
+                    <code class="text-sm sm:text-base text-slate-200">brew install --cask Resultid/conductor-git-controls/conductor-git-controls</code>
+                    <button onclick="navigator.clipboard.writeText('brew install --cask Resultid/conductor-git-controls/conductor-git-controls')" class="text-slate-500 hover:text-indigo-400 transition-colors ml-1" title="Copy">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9.75a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184"/></svg>
                     </button>
                 </div>
-                <a href="https://github.com/conductor-build/conductor-git-controls" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-6 py-4 text-sm text-slate-400 hover:text-white transition-colors border-hairline rounded-xl hover:border-white/20">
+                <a href="https://github.com/conductor-build/conductor-git-controls" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-6 py-3 text-sm text-slate-400 hover:text-white transition-colors">
                     <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
                     View on GitHub
                 </a>
