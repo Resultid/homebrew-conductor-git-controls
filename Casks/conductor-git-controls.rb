@@ -2,7 +2,7 @@ cask "conductor-git-controls" do
   version "0.3.0"
   sha256 "ba692dd95565f70ec4aee10fe96a8cacde5e5c96be2bf9b4e7ce0eb93454ffd3"
 
-  url "https://github.com/Resultid/homebrew-conductor-git-controls/releases/download/v#{version}/Conductor%20Git%20Controls_#{version}_aarch64.dmg"
+  url "https://github.com/Resultid/homebrew-conductor-git-controls/releases/download/v#{version}/Conductor.Git.Controls_#{version}_aarch64.dmg"
   name "Conductor Git Controls"
   desc "Desktop Git management for Conductor workspaces"
   homepage "https://Resultid.github.io/homebrew-conductor-git-controls/"
