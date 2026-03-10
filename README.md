@@ -6,7 +6,7 @@
 
 # Conductor Git Controls
 
-A high-performance, minimal macOS interface for managing complex git operations across multiple coding workspaces.
+A high-performance, minimal macOS interface for managing git operations across your Conductor.build workspaces.
 
 ## Install
 
