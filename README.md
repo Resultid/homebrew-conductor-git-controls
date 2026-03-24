@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/macOS-12%2B-blue?style=flat-square" alt="macOS 12+">
-  <img src="https://img.shields.io/badge/version-0.3.0-indigo?style=flat-square" alt="Version 0.4.2">
+  <img src="https://img.shields.io/badge/version-0.4.2-indigo?style=flat-square" alt="Version 0.4.2">
   <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License">
 </p>
 
