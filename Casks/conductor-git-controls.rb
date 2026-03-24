@@ -1,6 +1,6 @@
 cask "conductor-git-controls" do
-  version "0.4.1"
-  sha256 "447bd5e6f9ea8a4ed896d6cef64cfc498030a0df7846a9d940588e3f2609a8a5"
+  version "0.4.2"
+  sha256 "afa091516871f9cdc3a752d1c00bd3f6ac6a2b87f57055f72c1e83ae80d7f48c"
 
   url "https://github.com/Resultid/homebrew-conductor-git-controls/releases/download/v#{version}/Conductor.Git.Controls_#{version}_aarch64.dmg"
   name "Conductor Git Controls"
